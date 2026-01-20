@@ -1,0 +1,642 @@
+{
+    "header": {
+        "title": "Workout Program",
+        "subtitle": "6-Day Training Split",
+        "stats": "61kg · 165cm · Fat Loss + Muscle Building"
+    },
+    "days": [
+        {
+            "id": "day1",
+            "title": "Day 1 — Chest & Cardio",
+            "meta": "60-70 minutes · Focus: Chest development & fat burning",
+            "sections": [
+                {
+                    "type": "strength",
+                    "label": "Strength Training · 40-45 min",
+                    "exercises": [
+                        {
+                            "name": "Chest Press Machine",
+                            "target": "Chest",
+                            "sets": "4 sets × 10-12 reps · Rest: 60-90s",
+                            "image": "assets/Chest-Press-Machine.gif",
+                            "alt": "Chest Press Machine",
+                            "formCues": [
+                                "Back flat against pad, feet firmly on ground",
+                                "Grip handles at chest level, elbows at 45°",
+                                "Push forward until arms almost straight",
+                                "Control weight back slowly (2-3 seconds)"
+                            ],
+                            "mistakes": [
+                                "Arching lower back off pad",
+                                "Lifting shoulders toward ears"
+                            ]
+                        },
+                        {
+                            "name": "Dumbbell Bench Press",
+                            "target": "Chest",
+                            "sets": "3 sets × 12 reps · Rest: 60s",
+                            "image": "assets/Dumbbell-Press-1.gif",
+                            "alt": "Dumbbell Bench Press"
+                        },
+                        {
+                            "name": "Dips (Chest Focus)",
+                            "target": "Chest · Triceps",
+                            "sets": "3 sets × 8-12 reps · Rest: 60-90s",
+                            "image": "assets/Chest-Dips.gif",
+                            "alt": "Dips (Chest Focus)",
+                            "formCues": [
+                                "Lower until arms are parallel to ground",
+                                "Lean forward to emphasize chest",
+                                "Push back up explosively"
+                            ],
+                            "mistakes": [
+                                "Going too low (risk of shoulder injury)",
+                                "Locking elbows at top"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "cardio",
+                    "label": "Cardio · 20-25 min",
+                    "title": "Cycle — Steady State",
+                    "steps": [
+                        "0-5 min: Easy warmup",
+                        "5-20 min: Moderate pace (65-75% max HR)",
+                        "20-25 min: Cool down"
+                    ]
+                },
+                {
+                    "type": "tips",
+                    "label": "Tips",
+                    "tips": [
+                        "Start with lighter weights to perfect form",
+                        "Focus on chest muscle contraction",
+                        "Hydrate between sets"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "day2",
+            "title": "Day 2 — Back & Core",
+            "meta": "55-60 minutes · Focus: Back thickness & core strength",
+            "sections": [
+                {
+                    "type": "strength",
+                    "label": "Strength Training · 40-45 min",
+                    "exercises": [
+                        {
+                            "name": "Lat Pulldown",
+                            "target": "Back · Lats",
+                            "sets": "4 sets × 10-12 reps · Rest: 60-90s",
+                            "image": "assets/Lat-Pulldown.gif",
+                            "alt": "Lat Pulldown",
+                            "formCues": [
+                                "Pull bar to upper chest (not behind neck)",
+                                "Lean back slightly, chest up",
+                                "Lead with elbows, squeeze shoulder blades"
+                            ]
+                        },
+                        {
+                            "name": "T-Bar Row",
+                            "target": "Back · Mid",
+                            "sets": "4 sets × 10-12 reps · Rest: 60-90s",
+                            "image": "assets/t-bar-rows.gif",
+                            "alt": "T-Bar Row"
+                        },
+                        {
+                            "name": "Pull-ups (Assisted)",
+                            "target": "Back · Lats",
+                            "sets": "3 sets × 6-10 reps · Rest: 90s",
+                            "image": "assets/Pull-up.gif",
+                            "alt": "Pull-ups (Assisted)"
+                        }
+                    ]
+                },
+                {
+                    "type": "core",
+                    "label": "Core · 15 min",
+                    "exercises": [
+                        {
+                            "name": "Decline Sit-ups",
+                            "target": "Core · Abs",
+                            "sets": "3 sets × 15-20 reps · Rest: 45s",
+                            "image": "assets/Decline-Sit-up.gif",
+                            "alt": "Decline Sit-ups"
+                        },
+                        {
+                            "name": "Hanging Knee Raises",
+                            "target": "Core · Lower Abs",
+                            "sets": "3 sets × 12-15 reps · Rest: 45s",
+                            "image": "assets/Hanging-Knee-Raises.gif",
+                            "alt": "Hanging Knee Raises"
+                        }
+                    ]
+                },
+                {
+                    "type": "tips",
+                    "label": "Tips",
+                    "tips": [
+                        "Think \"pull with elbows\" not hands",
+                        "Squeeze and hold at peak contraction"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "day3",
+            "title": "Day 3 — Legs & Cardio",
+            "meta": "60-70 minutes · Focus: Lower body strength & endurance",
+            "sections": [
+                {
+                    "type": "strength",
+                    "label": "Strength Training · 40-45 min",
+                    "exercises": [
+                        {
+                            "name": "Leg Press",
+                            "target": "Quads · Glutes · Hamstrings",
+                            "sets": "4 sets × 12-15 reps · Rest: 90s",
+                            "image": "assets/Leg-Press.gif",
+                            "alt": "Leg Press",
+                            "formCues": [
+                                "Back flat against pad, butt down",
+                                "Lower until knees at 90°",
+                                "Push through full foot",
+                                "Don't lock knees at top"
+                            ]
+                        },
+                        {
+                            "name": "Leg Press (Single Leg)",
+                            "target": "Quads · Glutes",
+                            "sets": "3 sets × 10 reps each · Rest: 60s",
+                            "image": "assets/Single-Leg-Press.gif",
+                            "alt": "Leg Press (Single Leg)"
+                        },
+                        {
+                            "name": "Bodyweight Squats",
+                            "target": "Full Legs",
+                            "sets": "3 sets × 20 reps · Rest: 45s",
+                            "image": "assets/bodyweight-squat-full-version.gif",
+                            "alt": "Bodyweight Squats"
+                        },
+                        {
+                            "name": "Calf Raises",
+                            "target": "Calves",
+                            "sets": "4 sets × 15-20 reps · Rest: 45s",
+                            "image": "assets/Standing-Calf-Raise.gif",
+                            "alt": "Calf Raises"
+                        }
+                    ]
+                },
+                {
+                    "type": "cardio",
+                    "label": "Cardio · 25-30 min",
+                    "title": "Cycle — Intervals",
+                    "steps": [
+                        "0-5 min: Warmup",
+                        "5-25 min: 2 min moderate / 1 min harder",
+                        "25-30 min: Cool down"
+                    ]
+                },
+                {
+                    "type": "tips",
+                    "label": "Tips",
+                    "tips": [
+                        "Leg day crucial for fat loss",
+                        "Drink extra water today"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "day4",
+            "title": "Day 4 — Shoulders & Arms",
+            "meta": "60-65 minutes · Focus: Shoulders, biceps, triceps, forearms",
+            "sections": [
+                {
+                    "type": "shoulders",
+                    "label": "Shoulders · 20 min",
+                    "exercises": [
+                        {
+                            "name": "Overhead Press (Dumbbells)",
+                            "target": "Shoulders",
+                            "sets": "4 sets × 10-12 reps · Rest: 60s",
+                            "image": "assets/Dumbbell-Push-Press.gif",
+                            "alt": "Overhead Press (Dumbbells)",
+                            "formCues": [
+                                "Press dumbbells overhead until arms extended",
+                                "Keep core tight, don't arch back",
+                                "Lower to shoulder level with control"
+                            ]
+                        },
+                        {
+                            "name": "Lateral Raises (Dumbbells)",
+                            "target": "Shoulders · Side Delts",
+                            "sets": "3 sets × 12-15 reps · Rest: 45s",
+                            "image": "assets/Dumbbell-Lateral-Raise.gif",
+                            "alt": "Lateral Raises (Dumbbells)",
+                            "formCues": [
+                                "Raise arms out to sides until parallel",
+                                "Slight bend in elbows, lead with elbows",
+                                "Don't swing or use momentum"
+                            ]
+                        },
+                        {
+                            "name": "Front Raises (Dumbbells)",
+                            "target": "Shoulders · Front Delts",
+                            "sets": "3 sets × 12 reps · Rest: 45s",
+                            "image": "assets/Alternating-Dumbbell-Front-Raise.gif",
+                            "alt": "Front Raises (Dumbbells)"
+                        }
+                    ]
+                },
+                {
+                    "type": "biceps",
+                    "label": "Biceps · 15 min",
+                    "exercises": [
+                        {
+                            "name": "Bicep Curls (Dumbbells)",
+                            "target": "Biceps",
+                            "sets": "4 sets × 10-12 reps · Rest: 60s",
+                            "image": "assets/Dumbbell-Curl.gif",
+                            "alt": "Bicep Curls (Dumbbells)",
+                            "formCues": [
+                                "Curl weights toward shoulders",
+                                "Keep elbows close to body",
+                                "Control the negative phase"
+                            ]
+                        },
+                        {
+                            "name": "Hammer Curls (Dumbbells)",
+                            "target": "Biceps · Forearms",
+                            "sets": "3 sets × 12 reps · Rest: 60s",
+                            "image": "assets/Seated-Hammer-Curl.gif",
+                            "alt": "Hammer Curls (Dumbbells)"
+                        }
+                    ]
+                },
+                {
+                    "type": "triceps",
+                    "label": "Triceps · 15 min",
+                    "exercises": [
+                        {
+                            "name": "Dips (Tricep Focus)",
+                            "target": "Triceps",
+                            "sets": "4 sets × 10-12 reps · Rest: 60s",
+                            "image": "assets/Triceps-Dips.gif",
+                            "alt": "Dips (Tricep Focus)",
+                            "formCues": [
+                                "Keep elbows close to body",
+                                "Lower until arms are parallel",
+                                "Push up explosively"
+                            ]
+                        },
+                        {
+                            "name": "Overhead Tricep Extension",
+                            "target": "Triceps",
+                            "sets": "3 sets × 12 reps · Rest: 60s",
+                            "image": "assets/Cable-Rope-Overhead-Triceps-Extension.gif",
+                            "alt": "Overhead Tricep Extension"
+                        }
+                    ]
+                },
+                {
+                    "type": "forearms",
+                    "label": "Forearms · 10 min",
+                    "exercises": [
+                        {
+                            "name": "Wrist Curls (Dumbbells)",
+                            "target": "Forearms",
+                            "sets": "3 sets × 15 reps · Rest: 45s",
+                            "image": "assets/Dumbbell-Wrist-Curl.gif",
+                            "alt": "Wrist Curls (Dumbbells)"
+                        },
+                        {
+                            "name": "Reverse Wrist Curls",
+                            "target": "Forearms",
+                            "sets": "3 sets × 15 reps · Rest: 45s",
+                            "image": "assets/dumbbell-reverse-curl.gif",
+                            "alt": "Reverse Wrist Curls"
+                        }
+                    ]
+                },
+                {
+                    "type": "tips",
+                    "label": "Tips",
+                    "tips": [
+                        "Shoulders are fragile — lighter weights, perfect form",
+                        "Arms respond well to higher reps",
+                        "Don't use momentum — strict form is key"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "day5",
+            "title": "Day 5 — Upper Body & Cardio",
+            "meta": "60-70 minutes · Focus: Upper body strength",
+            "sections": [
+                {
+                    "type": "strength",
+                    "label": "Strength Training · 40-45 min",
+                    "exercises": [
+                        {
+                            "name": "T-Bar Row",
+                            "target": "Back",
+                            "sets": "4 sets × 10-12 reps · Rest: 60-90s",
+                            "image": "assets/t-bar-rows.gif",
+                            "alt": "T-Bar Row"
+                        },
+                        {
+                            "name": "Chest Press Machine",
+                            "target": "Chest",
+                            "sets": "4 sets × 10-12 reps · Rest: 60-90s",
+                            "image": "assets/Chest-Press-Machine.gif",
+                            "alt": "Chest Press Machine"
+                        },
+                        {
+                            "name": "Pull-ups (Assisted)",
+                            "target": "Back · Lats",
+                            "sets": "3 sets × 8-10 reps · Rest: 90s",
+                            "image": "assets/Pull-up.gif",
+                            "alt": "Pull-ups (Assisted)"
+                        },
+                        {
+                            "name": "Dips (Mixed Focus)",
+                            "target": "Chest · Triceps",
+                            "sets": "3 sets × 10-12 reps · Rest: 60s",
+                            "image": "assets/Chest-Dips.gif",
+                            "alt": "Dips (Mixed Focus)"
+                        },
+                        {
+                            "name": "Lat Pulldown (Close Grip)",
+                            "target": "Back · Lower Lats",
+                            "sets": "3 sets × 12 reps · Rest: 60s",
+                            "image": "assets/Close-Grip-Lat-Pulldown.gif",
+                            "alt": "Lat Pulldown (Close Grip)"
+                        }
+                    ]
+                },
+                {
+                    "type": "cardio",
+                    "label": "Cardio · 20-25 min",
+                    "title": "Cycle — Fat Burning Zone",
+                    "steps": [
+                        "25 minutes moderate intensity",
+                        "Steady-state for fat burning"
+                    ]
+                },
+                {
+                    "type": "tips",
+                    "label": "Tips",
+                    "tips": [
+                        "Focus on muscle contraction",
+                        "Control the negative phase",
+                        "Fuel properly today"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "day6",
+            "title": "Day 6 — Circuit & HIIT",
+            "meta": "60-65 minutes · Focus: Total body conditioning & max fat burn",
+            "sections": [
+                {
+                    "type": "circuit",
+                    "label": "Circuit Training · 45 min",
+                    "description": "Complete all 6 exercises back-to-back with 10-15s transition. Rest 90s after round. Repeat 3-4 times.",
+                    "exercises": [
+                        {
+                            "name": "Circuit 1 — Pull-ups",
+                            "target": "Back",
+                            "sets": "8-10 reps",
+                            "image": "assets/Pull-up.gif",
+                            "alt": "Circuit 1 — Pull-ups"
+                        },
+                        {
+                            "name": "Circuit 2 — Leg Press",
+                            "target": "Legs",
+                            "sets": "15 reps",
+                            "image": "assets/Leg-Press.gif",
+                            "alt": "Circuit 2 — Leg Press"
+                        },
+                        {
+                            "name": "Circuit 3 — Chest Press",
+                            "target": "Chest",
+                            "sets": "12 reps",
+                            "image": "assets/Chest-Press-Machine.gif",
+                            "alt": "Circuit 3 — Chest Press"
+                        },
+                        {
+                            "name": "Circuit 4 — T-Bar Row",
+                            "target": "Back",
+                            "sets": "12 reps",
+                            "image": "assets/t-bar-rows.gif",
+                            "alt": "Circuit 4 — T-Bar Row"
+                        },
+                        {
+                            "name": "Circuit 5 — Dips",
+                            "target": "Triceps",
+                            "sets": "10 reps",
+                            "image": "assets/Chest-Dips.gif",
+                            "alt": "Circuit 5 — Dips"
+                        },
+                        {
+                            "name": "Circuit 6 — Decline Sit-ups",
+                            "target": "Core",
+                            "sets": "20 reps",
+                            "image": "assets/Decline-Sit-up.gif",
+                            "alt": "Circuit 6 — Decline Sit-ups"
+                        }
+                    ]
+                },
+                {
+                    "type": "cardio",
+                    "label": "HIIT Cardio · 15-20 min",
+                    "title": "Cycle — High Intensity Intervals",
+                    "steps": [
+                        "0-2 min: Easy warmup",
+                        "2-17 min: 30s sprint / 60s recovery (8-10 rounds)",
+                        "17-20 min: Cool down"
+                    ],
+                    "note": "Sprint = High resistance + fast | Recovery = Low resistance + easy"
+                },
+                {
+                    "type": "tips",
+                    "label": "Tips",
+                    "tips": [
+                        "Hardest day — embrace the challenge",
+                        "Use moderate weights for multiple rounds",
+                        "HIIT should be truly intense",
+                        "Tomorrow is rest — give everything today"
+                    ]
+                }
+            ]
+        }
+    ],
+    "restDay": {
+        "title": "Day 7 — Rest",
+        "content": "Recovery is when muscles grow. Use this day wisely.",
+        "activities": [
+            {
+                "strong": "Active Recovery",
+                "text": "Light walk 20-30 min"
+            },
+            {
+                "strong": "Stretching",
+                "text": "Full body 15-20 min"
+            },
+            {
+                "strong": "Hydration",
+                "text": "3-4 liters water"
+            },
+            {
+                "strong": "Sleep",
+                "text": "7-8 hours minimum"
+            }
+        ],
+        "review": [
+            "Weigh yourself (same time each week)",
+            "Take progress photos",
+            "Measure waist circumference",
+            "Record weights used this week",
+            "Plan next week's meals"
+        ]
+    },
+    "nutrition": {
+        "title": "Nutrition Guide",
+        "meta": "Essential information for fat loss & muscle building",
+        "sections": [
+            {
+                "label": "Daily Targets",
+                "table": [
+                    {
+                        "component": "Calories",
+                        "target": "1,800-2,000",
+                        "notes": "Caloric deficit for fat loss"
+                    },
+                    {
+                        "component": "Protein",
+                        "target": "100-120g",
+                        "notes": "30-35% of calories"
+                    },
+                    {
+                        "component": "Carbs",
+                        "target": "180-220g",
+                        "notes": "40-45% of calories"
+                    },
+                    {
+                        "component": "Fats",
+                        "target": "45-55g",
+                        "notes": "20-25% of calories"
+                    },
+                    {
+                        "component": "Water",
+                        "target": "3-4 liters",
+                        "notes": "More on training days"
+                    }
+                ]
+            },
+            {
+                "label": "Sample Meal Plan",
+                "table": [
+                    {
+                        "meal": "Breakfast",
+                        "time": "7-8 AM",
+                        "food": "4 egg whites + 1 whole egg, 2 whole wheat toast, banana"
+                    },
+                    {
+                        "meal": "Mid-Morning",
+                        "time": "10-11 AM",
+                        "food": "Protein shake or Greek yogurt with berries"
+                    },
+                    {
+                        "meal": "Lunch",
+                        "time": "1-2 PM",
+                        "food": "Grilled chicken/fish, brown rice (1 cup), vegetables, dal"
+                    },
+                    {
+                        "meal": "Pre-Workout",
+                        "time": "3-4 PM",
+                        "food": "Apple with peanut butter or banana"
+                    },
+                    {
+                        "meal": "Post-Workout",
+                        "time": "6-7 PM",
+                        "food": "Protein shake"
+                    },
+                    {
+                        "meal": "Dinner",
+                        "time": "8-9 PM",
+                        "food": "Paneer/chicken curry, 2 roti or large salad with protein"
+                    }
+                ]
+            },
+            {
+                "label": "Protein Sources",
+                "items": [
+                    {
+                        "title": "Animal Sources",
+                        "content": "Chicken breast, fish, eggs, Greek yogurt, paneer, milk"
+                    },
+                    {
+                        "title": "Plant Sources",
+                        "content": "Dal (lentils), rajma, chickpeas, soya chunks, protein powder"
+                    }
+                ]
+            },
+            {
+                "label": "Foods to Minimize",
+                "content": "Fried foods · Sugary drinks · Sweets · White rice & bread · Maida products · Processed foods · Fast food · Excessive oil"
+            },
+            {
+                "label": "Progressive Overload",
+                "content": "<strong>Increase weight:</strong> When you can complete all sets with good form, add 2-5% weight next workout<br><br><strong>Increase reps:</strong> If can't add weight, add 1-2 reps per set<br><br><strong>Decrease rest:</strong> Reduce rest periods by 10-15s every 2 weeks"
+            },
+            {
+                "label": "Expected Timeline",
+                "table": [
+                    {
+                        "week": "1-2",
+                        "expect": "Learning exercises, body adaptation"
+                    },
+                    {
+                        "week": "3-4",
+                        "expect": "Getting stronger, exercises feel natural"
+                    },
+                    {
+                        "week": "5-8",
+                        "expect": "Noticeable strength gains, slight visible changes"
+                    },
+                    {
+                        "week": "9-12",
+                        "expect": "Clear body composition changes, belly fat reducing"
+                    },
+                    {
+                        "week": "3-6 months",
+                        "expect": "Significant transformation with consistency"
+                    }
+                ]
+            },
+            {
+                "label": "Success Tips",
+                "tips": [
+                    "Consistency beats perfection",
+                    "Sleep 7-8 hours for recovery",
+                    "Track workouts, weight, measurements",
+                    "Be patient — sustainable fat loss is 0.5-1kg/week",
+                    "Take photos to track real progress",
+                    "Warm up before, cool down after workouts",
+                    "Listen to your body — soreness is okay, pain is not",
+                    "Stay motivated with workout partners or communities"
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "title": "You've Got This",
+        "content": "Every person you admire in the gym started exactly where you are now. The difference? They stayed consistent.<br><br><strong>Start today. Stay consistent. See results.</strong>"
+    }
+}

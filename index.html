@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>6-Day Workout Program</title>
+    <title>Workout Program</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
@@ -425,12 +425,10 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Workout Program</h1>
-            <p>6-Day Training Split</p>
-            <div class="stats">61kg · 165cm · Fat Loss + Muscle Building</div>
+            <!-- Header will be populated by JS -->
         </div>
 
-        <div class="no-print">
+        <!-- <div class="no-print">
             <div class="btn-group">
                 <button onclick="window.print()">Print All</button>
                 <button onclick="printDay(1)">Day 1</button>
@@ -440,967 +438,182 @@
                 <button onclick="printDay(5)">Day 5</button>
                 <button onclick="printDay(6)">Day 6</button>
             </div>
-        </div>
+        </div> -->
 
-        <!-- DAY 1: CHEST & CARDIO -->
-        <div class="day-card" id="day1">
-            <div class="day-title">Day 1 — Chest & Cardio</div>
-            <div class="day-meta">60-70 minutes · Focus: Chest development & fat burning</div>
-
-            <div class="section-label">Strength Training · 40-45 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Chest-Press-Machine.gif"
-                            alt="Chest Press Machine"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Chest Press Machine</div>
-                        <div class="exercise-target">Chest</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60-90s</div>
-
-                        <div class="form-cues">
-                            <div class="form-title">Form Cues</div>
-                            <ul>
-                                <li>Back flat against pad, feet firmly on ground</li>
-                                <li>Grip handles at chest level, elbows at 45°</li>
-                                <li>Push forward until arms almost straight</li>
-                                <li>Control weight back slowly (2-3 seconds)</li>
-                            </ul>
-                        </div>
-
-                        <div class="mistakes">
-                            <div class="mistakes-title">Avoid</div>
-                            <ul>
-                                <li>Arching lower back off pad</li>
-                                <li>Lifting shoulders toward ears</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Dumbbell-Press-1.gif"
-                            alt="Dumbbell Bench Press"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Dumbbell Bench Press</div>
-                        <div class="exercise-target">Chest</div>
-                        <div class="exercise-sets">3 sets × 12 reps · Rest: 60s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Chest-Dips.gif"
-                            alt="Dips (Chest Focus)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Dips (Chest Focus)</div>
-                        <div class="exercise-target">Chest · Triceps</div>
-                        <div class="exercise-sets">3 sets × 8-12 reps · Rest: 60-90s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">Cardio · 20-25 min</div>
-
-            <div class="cardio-section">
-                <h3>Cycle — Steady State</h3>
-                <ul>
-                    <li>0-5 min: Easy warmup</li>
-                    <li>5-20 min: Moderate pace (65-75% max HR)</li>
-                    <li>20-25 min: Cool down</li>
-                </ul>
-            </div>
-
-            <div class="tips-section">
-                <h3>Tips</h3>
-                <ul>
-                    <li>Start with lighter weights to perfect form</li>
-                    <li>Focus on chest muscle contraction</li>
-                    <li>Hydrate between sets</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- DAY 2: BACK & CORE -->
-        <div class="day-card" id="day2">
-            <div class="day-title">Day 2 — Back & Core</div>
-            <div class="day-meta">55-60 minutes · Focus: Back thickness & core strength</div>
-
-            <div class="section-label">Strength Training · 40-45 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Lat-Pulldown.gif"
-                            alt="Lat Pulldown"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Lat Pulldown</div>
-                        <div class="exercise-target">Back · Lats</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60-90s</div>
-
-                        <div class="form-cues">
-                            <div class="form-title">Form Cues</div>
-                            <ul>
-                                <li>Pull bar to upper chest (not behind neck)</li>
-                                <li>Lean back slightly, chest up</li>
-                                <li>Lead with elbows, squeeze shoulder blades</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/t-bar-rows.gif"
-                            alt="T-Bar Row"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">T-Bar Row</div>
-                        <div class="exercise-target">Back · Mid</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60-90s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Pull-up.gif"
-                            alt="Pull-ups (Assisted)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Pull-ups (Assisted)</div>
-                        <div class="exercise-target">Back · Lats</div>
-                        <div class="exercise-sets">3 sets × 6-10 reps · Rest: 90s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">Core · 15 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Decline-Sit-up.gif"
-                            alt="Decline Sit-ups"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Decline Sit-ups</div>
-                        <div class="exercise-target">Core · Abs</div>
-                        <div class="exercise-sets">3 sets × 15-20 reps · Rest: 45s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Hanging-Knee-Raises.gif"
-                            alt="Hanging Knee Raises"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Hanging Knee Raises</div>
-                        <div class="exercise-target">Core · Lower Abs</div>
-                        <div class="exercise-sets">3 sets × 12-15 reps · Rest: 45s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tips-section">
-                <h3>Tips</h3>
-                <ul>
-                    <li>Think "pull with elbows" not hands</li>
-                    <li>Squeeze and hold at peak contraction</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- DAY 3: LEGS & CARDIO -->
-        <div class="day-card" id="day3">
-            <div class="day-title">Day 3 — Legs & Cardio</div>
-            <div class="day-meta">60-70 minutes · Focus: Lower body strength & endurance</div>
-
-            <div class="section-label">Strength Training · 40-45 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Leg-Press.gif"
-                            alt="Leg Press"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Leg Press</div>
-                        <div class="exercise-target">Quads · Glutes · Hamstrings</div>
-                        <div class="exercise-sets">4 sets × 12-15 reps · Rest: 90s</div>
-
-                        <div class="form-cues">
-                            <div class="form-title">Form Cues</div>
-                            <ul>
-                                <li>Back flat against pad, butt down</li>
-                                <li>Lower until knees at 90°</li>
-                                <li>Push through full foot</li>
-                                <li>Don't lock knees at top</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Single-Leg-Press.gif"
-                            alt="Leg Press (Single Leg)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Leg Press (Single Leg)</div>
-                        <div class="exercise-target">Quads · Glutes</div>
-                        <div class="exercise-sets">3 sets × 10 reps each · Rest: 60s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/bodyweight-squat-full-version.gif"
-                            alt="Bodyweight Squats"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Bodyweight Squats</div>
-                        <div class="exercise-target">Full Legs</div>
-                        <div class="exercise-sets">3 sets × 20 reps · Rest: 45s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Standing-Calf-Raise.gif"
-                            alt="Calf Raises"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Calf Raises</div>
-                        <div class="exercise-target">Calves</div>
-                        <div class="exercise-sets">4 sets × 15-20 reps · Rest: 45s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">Cardio · 25-30 min</div>
-
-            <div class="cardio-section">
-                <h3>Cycle — Intervals</h3>
-                <ul>
-                    <li>0-5 min: Warmup</li>
-                    <li>5-25 min: 2 min moderate / 1 min harder</li>
-                    <li>25-30 min: Cool down</li>
-                </ul>
-            </div>
-
-            <div class="tips-section">
-                <h3>Tips</h3>
-                <ul>
-                    <li>Leg day crucial for fat loss</li>
-                    <li>Drink extra water today</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- DAY 4: SHOULDERS & ARMS -->
-        <div class="day-card" id="day4">
-            <div class="day-title">Day 4 — Shoulders & Arms</div>
-            <div class="day-meta">60-65 minutes · Focus: Shoulders, biceps, triceps, forearms</div>
-
-            <div class="section-label">Shoulders · 20 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Dumbbell-Push-Press.gif"
-                            alt="Overhead Press (Dumbbells)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Overhead Press (Dumbbells)</div>
-                        <div class="exercise-target">Shoulders</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60s</div>
-
-                        <div class="form-cues">
-                            <div class="form-title">Form Cues</div>
-                            <ul>
-                                <li>Press dumbbells overhead until arms extended</li>
-                                <li>Keep core tight, don't arch back</li>
-                                <li>Lower to shoulder level with control</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Dumbbell-Lateral-Raise.gif"
-                            alt="Lateral Raises (Dumbbells)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Lateral Raises (Dumbbells)</div>
-                        <div class="exercise-target">Shoulders · Side Delts</div>
-                        <div class="exercise-sets">3 sets × 12-15 reps · Rest: 45s</div>
-
-                        <div class="form-cues">
-                            <div class="form-title">Form Cues</div>
-                            <ul>
-                                <li>Raise arms out to sides until parallel</li>
-                                <li>Slight bend in elbows, lead with elbows</li>
-                                <li>Don't swing or use momentum</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Alternating-Dumbbell-Front-Raise.gif"
-                            alt="Front Raises (Dumbbells)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Front Raises (Dumbbells)</div>
-                        <div class="exercise-target">Shoulders · Front Delts</div>
-                        <div class="exercise-sets">3 sets × 12 reps · Rest: 45s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">Biceps · 15 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Dumbbell-Curl.gif"
-                            alt="Bicep Curls (Dumbbells)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Bicep Curls (Dumbbells)</div>
-                        <div class="exercise-target">Biceps</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60s</div>
-
-                        <div class="form-cues">
-                            <div class="form-title">Form Cues</div>
-                            <ul>
-                                <li>Curl weights toward shoulders</li>
-                                <li>Keep elbows at sides, don't swing</li>
-                                <li>Squeeze at top, lower slowly</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Seated-Hammer-Curl.gif"
-                            alt="Hammer Curls (Dumbbells)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Hammer Curls (Dumbbells)</div>
-                        <div class="exercise-target">Biceps · Forearms</div>
-                        <div class="exercise-sets">3 sets × 12 reps · Rest: 60s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">Triceps · 15 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Triceps-Dips.gif"
-                            alt="Dips (Tricep Focus)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Dips (Tricep Focus)</div>
-                        <div class="exercise-target">Triceps</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60s</div>
-
-                        <div class="form-cues">
-                            <div class="form-title">Form Cues</div>
-                            <ul>
-                                <li>Stay upright (not leaning forward)</li>
-                                <li>Elbows close to body, pointing back</li>
-                                <li>Press back up, squeeze triceps</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Cable-Rope-Overhead-Triceps-Extension.gif"
-                            alt="Overhead Tricep Extension"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Overhead Tricep Extension</div>
-                        <div class="exercise-target">Triceps</div>
-                        <div class="exercise-sets">3 sets × 12 reps · Rest: 60s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">Forearms · 10 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Dumbbell-Wrist-Curl.gif"
-                            alt="Wrist Curls (Dumbbells)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Wrist Curls (Dumbbells)</div>
-                        <div class="exercise-target">Forearms</div>
-                        <div class="exercise-sets">3 sets × 15 reps · Rest: 45s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/dumbbell-reverse-curl.gif"
-                            alt="Reverse Wrist Curls"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Reverse Wrist Curls</div>
-                        <div class="exercise-target">Forearms</div>
-                        <div class="exercise-sets">3 sets × 15 reps · Rest: 45s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tips-section">
-                <h3>Tips</h3>
-                <ul>
-                    <li>Shoulders are fragile — lighter weights, perfect form</li>
-                    <li>Arms respond well to higher reps</li>
-                    <li>Don't use momentum — strict form is key</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- DAY 5 -->
-        <div class="day-card" id="day5">
-            <div class="day-title">Day 5 — Upper Body & Cardio</div>
-            <div class="day-meta">60-70 minutes · Focus: Upper body strength</div>
-
-            <div class="section-label">Strength Training · 40-45 min</div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/t-bar-rows.gif"
-                            alt="T-Bar Row"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">T-Bar Row</div>
-                        <div class="exercise-target">Back</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60-90s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Chest-Press-Machine.gif"
-                            alt="Chest Press Machine"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Chest Press Machine</div>
-                        <div class="exercise-target">Chest</div>
-                        <div class="exercise-sets">4 sets × 10-12 reps · Rest: 60-90s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Pull-up.gif"
-                            alt="Pull-ups (Assisted)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Pull-ups (Assisted)</div>
-                        <div class="exercise-target">Back · Lats</div>
-                        <div class="exercise-sets">3 sets × 8-10 reps · Rest: 90s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Chest-Dips.gif"
-                            alt="Dips (Mixed Focus)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Dips (Mixed Focus)</div>
-                        <div class="exercise-target">Chest · Triceps</div>
-                        <div class="exercise-sets">3 sets × 10-12 reps · Rest: 60s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Close-Grip-Lat-Pulldown.gif"
-                            alt="Lat Pulldown (Close Grip)"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Lat Pulldown (Close Grip)</div>
-                        <div class="exercise-target">Back · Lower Lats</div>
-                        <div class="exercise-sets">3 sets × 12 reps · Rest: 60s</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">Cardio · 20-25 min</div>
-
-            <div class="cardio-section">
-                <h3>Cycle — Fat Burning Zone</h3>
-                <ul>
-                    <li>25 minutes moderate intensity</li>
-                    <li>Steady-state for fat burning</li>
-                </ul>
-            </div>
-
-            <div class="tips-section">
-                <h3>Tips</h3>
-                <ul>
-                    <li>Focus on muscle contraction</li>
-                    <li>Control the negative phase</li>
-                    <li>Fuel properly today</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- DAY 6 -->
-        <div class="day-card" id="day6">
-            <div class="day-title">Day 6 — Circuit & HIIT</div>
-            <div class="day-meta">60-65 minutes · Focus: Total body conditioning & max fat burn</div>
-
-            <div class="section-label">Circuit Training · 45 min</div>
-
-            <div
-                style="background: #fafafa; padding: 20px; border-radius: 8px; margin-bottom: 32px; font-size: 14px; color: #666;">
-                Complete all 6 exercises back-to-back with 10-15s transition. Rest 90s after round. Repeat 3-4 times.
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Pull-up.gif"
-                            alt="Circuit 1 — Pull-ups"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Circuit 1 — Pull-ups</div>
-                        <div class="exercise-target">Back</div>
-                        <div class="exercise-sets">8-10 reps</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Leg-Press.gif"
-                            alt="Circuit 2 — Leg Press"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Circuit 2 — Leg Press</div>
-                        <div class="exercise-target">Legs</div>
-                        <div class="exercise-sets">15 reps</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Chest-Press-Machine.gif"
-                            alt="Circuit 3 — Chest Press"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Circuit 3 — Chest Press</div>
-                        <div class="exercise-target">Chest</div>
-                        <div class="exercise-sets">12 reps</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/t-bar-rows.gif"
-                            alt="Circuit 4 — T-Bar Row"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Circuit 4 — T-Bar Row</div>
-                        <div class="exercise-target">Back</div>
-                        <div class="exercise-sets">12 reps</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Chest-Dips.gif"
-                            alt="Circuit 5 — Dips"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Circuit 5 — Dips</div>
-                        <div class="exercise-target">Triceps</div>
-                        <div class="exercise-sets">10 reps</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="exercise-item">
-                <div class="exercise-header">
-                    <div class="exercise-image">
-                        <img src="assets/Decline-Sit-up.gif"
-                            alt="Circuit 6 — Decline Sit-ups"
-                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
-
-                    </div>
-                    <div class="exercise-content">
-                        <div class="exercise-name">Circuit 6 — Decline Sit-ups</div>
-                        <div class="exercise-target">Core</div>
-                        <div class="exercise-sets">20 reps</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-label">HIIT Cardio · 15-20 min</div>
-
-            <div class="cardio-section">
-                <h3>Cycle — High Intensity Intervals</h3>
-                <ul>
-                    <li>0-2 min: Easy warmup</li>
-                    <li>2-17 min: 30s sprint / 60s recovery (8-10 rounds)</li>
-                    <li>17-20 min: Cool down</li>
-                </ul>
-                <p style="margin-top: 12px; font-size: 13px; color: #999;">Sprint = High resistance + fast | Recovery =
-                    Low resistance + easy</p>
-            </div>
-
-            <div class="tips-section">
-                <h3>Tips</h3>
-                <ul>
-                    <li>Hardest day — embrace the challenge</li>
-                    <li>Use moderate weights for multiple rounds</li>
-                    <li>HIIT should be truly intense</li>
-                    <li>Tomorrow is rest — give everything today</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- REST DAY -->
-        <div class="day-card">
-            <div class="rest-day">
-                <div class="day-title">Day 7 — Rest</div>
-                <p>Recovery is when muscles grow. Use this day wisely.</p>
-
-                <div class="rest-activities">
-                    <div class="rest-item">
-                        <strong>Active Recovery</strong><br>
-                        Light walk 20-30 min
-                    </div>
-                    <div class="rest-item">
-                        <strong>Stretching</strong><br>
-                        Full body 15-20 min
-                    </div>
-                    <div class="rest-item">
-                        <strong>Hydration</strong><br>
-                        3-4 liters water
-                    </div>
-                    <div class="rest-item">
-                        <strong>Sleep</strong><br>
-                        7-8 hours minimum
-                    </div>
-                </div>
-
-                <div style="margin-top: 40px; text-align: left;">
-                    <div class="section-label">Weekly Review</div>
-                    <ul style="list-style: none; font-size: 14px; color: #666;">
-                        <li style="margin-bottom: 12px;">Weigh yourself (same time each week)</li>
-                        <li style="margin-bottom: 12px;">Take progress photos</li>
-                        <li style="margin-bottom: 12px;">Measure waist circumference</li>
-                        <li style="margin-bottom: 12px;">Record weights used this week</li>
-                        <li style="margin-bottom: 12px;">Plan next week's meals</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- NUTRITION -->
-        <div class="nutrition-card">
-            <div class="day-title">Nutrition Guide</div>
-            <div class="day-meta">Essential information for fat loss & muscle building</div>
-
-            <div class="section-label">Daily Targets</div>
-
-            <table class="minimal-table">
-                <thead>
-                    <tr>
-                        <th>Component</th>
-                        <th>Target</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Calories</td>
-                        <td>1,800-2,000</td>
-                        <td>Caloric deficit for fat loss</td>
-                    </tr>
-                    <tr>
-                        <td>Protein</td>
-                        <td>100-120g</td>
-                        <td>30-35% of calories</td>
-                    </tr>
-                    <tr>
-                        <td>Carbs</td>
-                        <td>180-220g</td>
-                        <td>40-45% of calories</td>
-                    </tr>
-                    <tr>
-                        <td>Fats</td>
-                        <td>45-55g</td>
-                        <td>20-25% of calories</td>
-                    </tr>
-                    <tr>
-                        <td>Water</td>
-                        <td>3-4 liters</td>
-                        <td>More on training days</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="section-label">Sample Meal Plan</div>
-
-            <table class="minimal-table">
-                <thead>
-                    <tr>
-                        <th>Meal</th>
-                        <th>Time</th>
-                        <th>Food</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Breakfast</td>
-                        <td>7-8 AM</td>
-                        <td>4 egg whites + 1 whole egg, 2 whole wheat toast, banana</td>
-                    </tr>
-                    <tr>
-                        <td>Mid-Morning</td>
-                        <td>10-11 AM</td>
-                        <td>Protein shake or Greek yogurt with berries</td>
-                    </tr>
-                    <tr>
-                        <td>Lunch</td>
-                        <td>1-2 PM</td>
-                        <td>Grilled chicken/fish, brown rice (1 cup), vegetables, dal</td>
-                    </tr>
-                    <tr>
-                        <td>Pre-Workout</td>
-                        <td>3-4 PM</td>
-                        <td>Apple with peanut butter or banana</td>
-                    </tr>
-                    <tr>
-                        <td>Post-Workout</td>
-                        <td>6-7 PM</td>
-                        <td>Protein shake</td>
-                    </tr>
-                    <tr>
-                        <td>Dinner</td>
-                        <td>8-9 PM</td>
-                        <td>Paneer/chicken curry, 2 roti or large salad with protein</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="section-label">Protein Sources</div>
-
-            <div class="nutrition-grid">
-                <div class="nutrition-item">
-                    <h4>Animal Sources</h4>
-                    <p>Chicken breast, fish, eggs, Greek yogurt, paneer, milk</p>
-                </div>
-                <div class="nutrition-item">
-                    <h4>Plant Sources</h4>
-                    <p>Dal (lentils), rajma, chickpeas, soya chunks, protein powder</p>
-                </div>
-            </div>
-
-            <div class="section-label">Foods to Minimize</div>
-
-            <div style="background: #fafafa; padding: 20px; border-radius: 8px; font-size: 14px; color: #666;">
-                Fried foods · Sugary drinks · Sweets · White rice & bread · Maida products · Processed foods · Fast food
-                · Excessive oil
-            </div>
-
-            <div class="section-label">Progressive Overload</div>
-
-            <div class="nutrition-item">
-                <p style="line-height: 1.8;">
-                    <strong>Increase weight:</strong> When you can complete all sets with good form, add 2-5% weight
-                    next workout<br><br>
-                    <strong>Increase reps:</strong> If can't add weight, add 1-2 reps per set<br><br>
-                    <strong>Decrease rest:</strong> Reduce rest periods by 10-15s every 2 weeks
-                </p>
-            </div>
-
-            <div class="section-label">Expected Timeline</div>
-
-            <table class="minimal-table">
-                <thead>
-                    <tr>
-                        <th>Week</th>
-                        <th>What to Expect</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1-2</td>
-                        <td>Learning exercises, body adaptation</td>
-                    </tr>
-                    <tr>
-                        <td>3-4</td>
-                        <td>Getting stronger, exercises feel natural</td>
-                    </tr>
-                    <tr>
-                        <td>5-8</td>
-                        <td>Noticeable strength gains, slight visible changes</td>
-                    </tr>
-                    <tr>
-                        <td>9-12</td>
-                        <td>Clear body composition changes, belly fat reducing</td>
-                    </tr>
-                    <tr>
-                        <td>3-6 months</td>
-                        <td>Significant transformation with consistency</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <div class="tips-section" style="margin-top: 40px;">
-                <h3>Success Tips</h3>
-                <ul>
-                    <li>Consistency beats perfection</li>
-                    <li>Sleep 7-8 hours for recovery</li>
-                    <li>Track workouts, weight, measurements</li>
-                    <li>Be patient — sustainable fat loss is 0.5-1kg/week</li>
-                    <li>Take photos to track real progress</li>
-                    <li>Warm up before, cool down after workouts</li>
-                    <li>Listen to your body — soreness is okay, pain is not</li>
-                    <li>Stay motivated with workout partners or communities</li>
-                </ul>
-            </div>
-
-            <div style="text-align: center; padding: 40px 0; border-top: 1px solid #f0f0f0; margin-top: 40px;">
-                <h2 style="font-size: 28px; font-weight: 700; margin-bottom: 16px;">You've Got This</h2>
-                <p style="color: #666; font-size: 15px; max-width: 600px; margin: 0 auto; line-height: 1.8;">
-                    Every person you admire in the gym started exactly where you are now. The difference? They stayed
-                    consistent.<br><br>
-                    <strong style="color: #1a1a1a;">Start today. Stay consistent. See results.</strong>
-                </p>
-            </div>
+        <div id="content">
+            <!-- Content will be populated by JS -->
         </div>
     </div>
 
     <script>
+        let workoutData;
+
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                workoutData = data;
+                renderPage(data);
+            })
+            .catch(error => console.error('Error loading data:', error));
+
+        function renderPage(data) {
+            // Render header
+            const header = document.querySelector('.header');
+            header.innerHTML = `
+                <h1>${data.header.title}</h1>
+                <p>${data.header.subtitle}</p>
+                <div class="stats">${data.header.stats}</div>
+            `;
+
+            // Render content
+            const content = document.getElementById('content');
+            let html = '';
+
+            // Days
+            data.days.forEach(day => {
+                html += renderDay(day);
+            });
+
+            // Rest day
+            html += renderRestDay(data.restDay);
+
+            // Nutrition
+            // html += renderNutrition(data.nutrition);
+
+            // Footer
+            html += renderFooter(data.footer);
+
+            content.innerHTML = html;
+        }
+
+        function renderDay(day) {
+            let html = `<div class="day-card" id="${day.id}">
+                <div class="day-title">${day.title}</div>
+                <div class="day-meta">${day.meta}</div>`;
+
+            day.sections.forEach(section => {
+                html += `<div class="section-label">${section.label}</div>`;
+
+                if (section.exercises) {
+                    section.exercises.forEach(ex => {
+                        html += `<div class="exercise-item">
+                            <div class="exercise-header">
+                                <div class="exercise-image">
+                                    <img src="${ex.image}" alt="${ex.alt}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" loading="lazy">
+                                </div>
+                                <div class="exercise-content">
+                                    <div class="exercise-name">${ex.name}</div>
+                                    <div class="exercise-target">${ex.target}</div>
+                                    <div class="exercise-sets">${ex.sets}</div>`;
+
+                        if (ex.formCues) {
+                            html += `<div class="form-cues">
+                                <div class="form-title">Form Cues</div>
+                                <ul>${ex.formCues.map(c => `<li>${c}</li>`).join('')}</ul>
+                            </div>`;
+                        }
+
+                        if (ex.mistakes) {
+                            html += `<div class="mistakes">
+                                <div class="mistakes-title">Avoid</div>
+                                <ul>${ex.mistakes.map(m => `<li>${m}</li>`).join('')}</ul>
+                            </div>`;
+                        }
+
+                        html += `</div></div></div>`;
+                    });
+                }
+
+                if (section.title && section.steps) {
+                    html += `<div class="cardio-section">
+                        <h3>${section.title}</h3>
+                        <ul>${section.steps.map(s => `<li>${s}</li>`).join('')}</ul>`;
+                    if (section.note) html += `<p style="margin-top: 12px; font-size: 13px; color: #999;">${section.note}</p>`;
+                    html += `</div>`;
+                }
+
+                if (section.description) {
+                    html += `<div style="background: #fafafa; padding: 20px; border-radius: 8px; margin-bottom: 32px; font-size: 14px; color: #666;">${section.description}</div>`;
+                }
+
+                if (section.tips) {
+                    html += `<div class="tips-section">
+                        <h3>Tips</h3>
+                        <ul>${section.tips.map(t => `<li>${t}</li>`).join('')}</ul>
+                    </div>`;
+                }
+            });
+
+            html += `</div>`;
+            return html;
+        }
+
+        function renderRestDay(rest) {
+            return `<div class="day-card">
+                <div class="rest-day">
+                    <div class="day-title">${rest.title}</div>
+                    <p>${rest.content}</p>
+                    <div class="rest-activities">
+                        ${rest.activities.map(a => `<div class="rest-item"><strong>${a.strong}</strong><br>${a.text}</div>`).join('')}
+                    </div>
+                    <div style="margin-top: 40px; text-align: left;">
+                        <div class="section-label">Weekly Review</div>
+                        <ul style="list-style: none; font-size: 14px; color: #666;">
+                            ${rest.review.map(r => `<li style="margin-bottom: 12px;">${r}</li>`).join('')}
+                        </ul>
+                    </div>
+                </div>
+            </div>`;
+        }
+
+        function renderNutrition(nut) {
+            let html = `<div class="nutrition-card">
+                <div class="day-title">${nut.title}</div>
+                <div class="day-meta">${nut.meta}</div>`;
+
+            nut.sections.forEach(sec => {
+                html += `<div class="section-label">${sec.label}</div>`;
+
+                if (sec.table) {
+                    html += `<table class="minimal-table"><thead><tr>`;
+                    const keys = Object.keys(sec.table[0]);
+                    keys.forEach(k => html += `<th>${k.charAt(0).toUpperCase() + k.slice(1)}</th>`);
+                    html += `</tr></thead><tbody>`;
+                    sec.table.forEach(row => {
+                        html += `<tr>${keys.map(k => `<td>${row[k]}</td>`).join('')}</tr>`;
+                    });
+                    html += `</tbody></table>`;
+                } else if (sec.items) {
+                    html += `<div class="nutrition-grid">`;
+                    sec.items.forEach(item => {
+                        html += `<div class="nutrition-item"><h4>${item.title}</h4><p>${item.content}</p></div>`;
+                    });
+                    html += `</div>`;
+                } else if (sec.content) {
+                    html += `<div style="background: #fafafa; padding: 20px; border-radius: 8px; font-size: 14px; color: #666;">${sec.content}</div>`;
+                } else if (sec.tips) {
+                    html += `<div class="tips-section"><h3>Tips</h3><ul>${sec.tips.map(t => `<li>${t}</li>`).join('')}</ul></div>`;
+                }
+            });
+
+            if (nut.footer) {
+                html += `<div style="text-align: center; padding: 40px 0; border-top: 1px solid #f0f0f0; margin-top: 40px;">
+                    <h2 style="font-size: 28px; font-weight: 700; margin-bottom: 16px;">${nut.footer.title}</h2>
+                    <p style="color: #666; font-size: 15px; max-width: 600px; margin: 0 auto; line-height: 1.8;">${nut.footer.content}</p>
+                </div>`;
+            }
+
+            html += `</div>`;
+            return html;
+        }
+        
+        function renderFooter(footer) {
+            return `<div style="text-align: center; padding: 40px 0; border-top: 1px solid #f0f0f0; margin-top: 40px;">
+                <h2 style="font-size: 28px; font-weight: 700; margin-bottom: 16px;">${footer.title}</h2>
+                <p style="color: #666; font-size: 15px; max-width: 600px; margin: 0 auto; line-height: 1.8;">${footer.content}</p>
+            </div>`;
+        }
+
         function printDay(dayNum) {
             const cards = document.querySelectorAll('.day-card');
             cards.forEach((card, index) => {
